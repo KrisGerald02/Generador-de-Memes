@@ -7,13 +7,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 :root {
     --negro: rgb(18, 18, 18);
     --azul: rgb(20, 125, 245);
     --azul-oscuro: rgb(35, 3, 106);
     --azul-medio: rgb(48, 0, 156);
     --azul-claro: rgb(55, 0, 179);
+    --boton-descargar: #f8c8d8; 
+    --boton-borde: #f06292; 
+    --color-hover: #f48fb1;
     --violeta-azulado: rgb(86, 0, 232);
     --violeta-vibrante: rgb(88, 10, 255);
     --violeta-oscuro: rgb(80, 16, 219);
@@ -52,7 +54,7 @@
     --boton: var(--lila-claro);
     --boton-borde: var(--violeta-vibrante);
     --boton-reestablecer: var(--blanco-lila);
-    --background-nav: url(../img/cheems-dark-mode.png);
+    --background-nav: url(../img/carita_navbar.png);
     --boton-descargar: var(--celeste);
 }
 
@@ -72,7 +74,7 @@
     --boton: var(--verde);
     --boton-borde: var(--verde-azulado);
     --boton-reestablecer: var(--blanco-lila);
-    --background-nav: url(../img/cheems-light-mode.png);
+    --background-nav: url(../img/carita_navbar.png);
     --boton-descargar: var(--celeste);
 }
 
@@ -202,21 +204,30 @@ nav ul li{
    padding: 0.2rem;
 }
 
-#boton-descargar {
+ /* Estilo para el botón */
+ #boton-descargar {
     align-items: center;
     display: inline-block;
     width: 180px;
     height: 60px;
     border-radius: 30px;
-    background-color: var(--boton-descargar);
-    border: none;
-    border: solid var(--boton-borde);
-}
+    background-color: var(--boton-descargar); /* Fondo rosado pastel */
+    border: 2px solid var(--boton-borde); /* Borde rosado */
+    color: var(--boton-borde); /* Texto en el mismo color que el borde */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px; /* Centrado vertical */
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
-#boton-descargar:hover{
-    background-color: var(--color-hover);
-}
-
+  /* Efecto hover */
+  #boton-descargar:hover {
+    background-color: var(--color-hover); /* Fondo rosado más oscuro al pasar el ratón */
+    color: rgb(224, 165, 211); /* Color claro para el texto al hacer hover */
+  }
 /* SECCION IMAGEN */
 
 .seccion-imagen {
