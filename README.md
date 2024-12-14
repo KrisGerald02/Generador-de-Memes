@@ -1,10 +1,7 @@
 # Generador de Memes
 
 ### ¡Hola! Este es mi proyecto final del segundo módulo del Tecnico de Desarrollo Frontend de ADA ITW. 
-<br> 
-
 ### ¡Visita mi sitio web [aquí](https://krisgerald02.github.io/Generador-de-Memes/)!
-
 <br> 
 
 ## Website:
@@ -14,16 +11,12 @@
 <img src="https://github.com/user-attachments/assets/23f52bbf-ab57-4896-a7e4-d7cc7c2b199e" alt="HTML5" width="750" height="500" />
 
 ## Modo Oscuro
-
-
 <br>
 <img src="https://github.com/user-attachments/assets/087e7c7b-d6e3-491f-93b3-50b99fdaaf5c" alt="HTML5" width="750" height="500" />
 
 <br>
 
 ### Herramientas utilizadas
-
-
 <br>
 <p align="left">
   <a href="https://www.html5.com" target="_blank" rel="noreferrer">
@@ -39,7 +32,5 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" width="40" height="40" />
   </a>
   </p>
-
 <br>
-
 #### Hecho con ❤️ por Geraldine
