@@ -31,23 +31,40 @@
 
 /* Modo oscuro */
 .modo-oscuro {
-    --color-fondo: var(--gris-oscuro);
-    --color-texto: var(--blanco-lila);
-    --color-texto-claro: var(--gris-muy-claro);
-    --color-placeholder: var(--gris-oscuro);
-    --nav-color: var(--negro-gris);
-    --menu-imagen: var(--rosa-oscuro);
-    --menu-texto: var(--lila);
-    --filtro-rango: var(--rosa);
-    --color-hover: var(--lila-claro);
-    --meme-texto: var(--blanco-lila);
-    --boton: var(--blanco); /* Botones blancos */
-    --boton-borde: var(--rosa); /* Bordes */
-    --boton-reestablecer: var(--blanco);
-    --background-nav: url(../img/carita_navbar.png);
-    --boton-descargar: var(--blanco);
+    --color-fondo: var(--gris-oscuro); /* Fondo general */
+    --color-texto: var(--blanco-lila); /* Texto principal claro */
+    --color-texto-claro: var(--gris-muy-claro); /* Texto secundario */
+    --color-placeholder: var(--gris-oscuro); /* Placeholder */
+    --nav-color: var(--negro-gris); /* Navbar oscuro */
+    --menu-imagen: var(--rosa-oscuro); /* Imagen del menú */
+    --menu-texto: var(--lila); /* Texto del menú */
+    --filtro-rango: var(--rosa); /* Filtro rosado */
+    --color-hover: var(--gris-claro); /* Hover en gris claro */
+    --meme-texto: var(--blanco-lila); /* Texto en memes */
+    --boton: var(--blanco); /* Botón con fondo blanco */
+    --boton-borde: var(--negro); /* Bordes negros */
+    --boton-texto: var(--negro); /* Texto negro */
+    --boton-reestablecer: var(--blanco); /* Botón de reestablecer */
+    --background-nav: url(../img/carita_navbar.png); /* Imagen del navbar */
+    --boton-descargar: var(--blanco); /* Botón descargar */
 }
 
+
+footer {
+    background-color: var(--color-fondo); /* Color de fondo */
+    color: var(--color-texto); /* Color del texto */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
 
 
 /* Modo claro */
