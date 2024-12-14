@@ -5,7 +5,7 @@
 
 <br> 
 
-### Así debería verse el proyecto
+### Website:
 ## Modo Claro
 <br>
 <img src="https://github.com/user-attachments/assets/23f52bbf-ab57-4896-a7e4-d7cc7c2b199e" alt="HTML5" width="750" height="500" />
