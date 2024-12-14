@@ -4,7 +4,7 @@
 ### ¡Visita mi sitio web [aquí](https://krisgerald02.github.io/Generador-de-Memes/)!
 <br> 
 
-## Website:
+## Website
 ## Modo Claro
 --- 
 <br>
