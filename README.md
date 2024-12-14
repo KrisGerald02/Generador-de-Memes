@@ -8,7 +8,7 @@
 ### Así debería verse el proyecto
 ## Modo Claro
 <br>
-<img src="https://github.com/user-attachments/assets/23f52bbf-ab57-4896-a7e4-d7cc7c2b199e" alt="HTML5" width="500" height="500" />
+<img src="https://github.com/user-attachments/assets/23f52bbf-ab57-4896-a7e4-d7cc7c2b199e" alt="HTML5" width="1000" height="500" />
 
 ## Modo Oscuro
 <br>
