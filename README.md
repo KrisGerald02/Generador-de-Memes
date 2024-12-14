@@ -6,8 +6,16 @@
 <br> 
 
 ### Así debería verse el proyecto
+## Modo Claro
 <br>
+<img src="![Captura de pantalla_13-12-2024_203738_](https://github.com/user-attachments/assets/23f52bbf-ab57-4896-a7e4-d7cc7c2b199e)
+" alt="HTML5" width="40" height="40" />
+  </a>
 
+## Modo Oscuro
+<br>
+<img src="![Captura de pantalla_13-12-2024_203840_](https://github.com/user-attachments/assets/087e7c7b-d6e3-491f-93b3-50b99fdaaf5c)" alt="HTML5" width="40" height="40" />
+  </a>
 ---
 <br>
 
