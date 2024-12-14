@@ -7,76 +7,68 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Paleta principal */
 :root {
     --negro: rgb(18, 18, 18);
-    --azul: rgb(20, 125, 245);
-    --azul-oscuro: rgb(35, 3, 106);
-    --azul-medio: rgb(48, 0, 156);
-    --azul-claro: rgb(55, 0, 179);
-    --boton-descargar: #f8c8d8; 
-    --boton-borde: #f06292; 
-    --color-hover: #f48fb1;
-    --violeta-azulado: rgb(86, 0, 232);
-    --violeta-vibrante: rgb(88, 10, 255);
-    --violeta-oscuro: rgb(80, 16, 219);
+    --rosa-oscuro: rgb(205, 92, 92);
+    --rosa: rgb(255, 182, 193);
+    --rosa-claro: rgb(255, 218, 224);
+    --boton-descargar: var(--blanco); /* Botones blancos */
+    --boton-borde: var(--rosa-oscuro); /* Bordes de botones */
+    --color-hover: #f48fb1; /* Hover */
+    --violeta-vibrante: rgb(190, 10, 255);
     --violeta: rgb(98, 0, 238);
     --lila-oscuro: rgb(152, 94, 255);
     --lila: rgb(187, 134, 252);
     --lila-claro: rgb(219, 178, 255);
-    --lila-vibrante: rgb(190, 10, 255);
     --blanco-lila: rgb(242, 231, 254);
-    --blanco-gris: rgb(248, 249, 250);
-    --gris-claro: rgb(233, 236, 239);
-    --gris-medio: #ced4da;
-    --gris-oscuro: rgb(173, 181, 189);
-    --gris-super-oscuro: rgb(52, 58, 64);
+    --blanco: rgb(255, 255, 255);
+    --gris-muy-claro: rgb(248, 249, 250);
+    --gris-oscuro: rgb(52, 58, 64);
     --negro-gris: rgb(33, 37, 41);
-    --amarillo: rgb(222, 255, 10);
-    --naranja: rgb(255, 135, 0);
-    --naranja-amarillento: rgb(255, 211, 0);
-    --verde: rgb(161, 255, 10);
-    --verde-azulado: rgb(10, 255, 153);
-    --celeste: rgb(10, 239, 255);
-    --rojo: rgb(255, 0, 0);
+    --fondo-principal: var(--rosa-claro);
 }
 
+/* Modo oscuro */
 .modo-oscuro {
-    --color-fondo: var(--violeta-vibrante);
+    --color-fondo: var(--gris-oscuro);
     --color-texto: var(--blanco-lila);
-    --color-texto-claro: var(--blanco-gris);
-    --color-placeholder: var(--negro);
-    --nav-color: var(--negro);
-    --menu-imagen: var(--azul);
-    --menu-texto: var(--lila-vibrante);
-    --filtro-rango: var(--lila);
-    --color-hover: var(--lila);
+    --color-texto-claro: var(--gris-muy-claro);
+    --color-placeholder: var(--gris-oscuro);
+    --nav-color: var(--negro-gris);
+    --menu-imagen: var(--rosa-oscuro);
+    --menu-texto: var(--lila);
+    --filtro-rango: var(--rosa);
+    --color-hover: var(--lila-claro);
     --meme-texto: var(--blanco-lila);
-    --boton: var(--lila-claro);
-    --boton-borde: var(--violeta-vibrante);
-    --boton-reestablecer: var(--blanco-lila);
+    --boton: var(--blanco); /* Botones blancos */
+    --boton-borde: var(--rosa); /* Bordes */
+    --boton-reestablecer: var(--blanco);
     --background-nav: url(../img/carita_navbar.png);
-    --boton-descargar: var(--celeste);
+    --boton-descargar: var(--blanco);
 }
 
 
 
+/* Modo claro */
 .modo-claro {
-    --color-fondo: var(--amarillo);
-    --color-texto: var(--negro-gris);
-    --color-placeholder: var(--negro);
-    --color-texto-panel: var(blanco-gris);
-    --nav-color: var(--naranja);
-    --menu-imagen: var(--lila-vibrante);
-    --menu-texto: var(--celeste);
-    --filtro-rango: var(--rojo);
-    --meme-texto: var(--blanco-gris);
-    --color-hover: var(--verde-azulado);
-    --boton: var(--verde);
-    --boton-borde: var(--verde-azulado);
-    --boton-reestablecer: var(--blanco-lila);
-    --background-nav: url(../img/carita_navbar.png);
-    --boton-descargar: var(--celeste);
+    --color-fondo: var(--rosa-claro); /* Fondo general rosado */
+    --color-texto: var(--blanco); /* Texto principal en blanco */
+    --color-placeholder: var(--rosa-oscuro); /* Placeholder rosado oscuro */
+    --color-texto-panel: var(--blanco-lila); /* Texto en paneles */
+    --nav-color: var(--rosa-oscuro); /* Navbar rosado intenso */
+    --menu-imagen: var(--lila-claro); /* Imágenes del menú en lila claro */
+    --menu-texto: var(--rosa); /* Texto del menú rosado */
+    --filtro-rango: var(--rosa-oscuro); /* Color de filtro */
+    --meme-texto: var(--blanco); /* Texto en memes */
+    --color-hover: var(--rosa); /* Efecto hover en rosado */
+    --boton: var(--blanco); /* Botones blancos */
+    --boton-borde: var(--rosa-oscuro); /* Borde de los botones rosado intenso */
+    --boton-reestablecer: var(--blanco-lila); /* Botón para reestablecer */
+    --background-nav: url(../img/carita_navbar.png); /* Imagen del navbar */
+    --boton-descargar: var(--rosa-claro); /* Botón de descargar */
 }
+
 
 body {
     background-color: var(--color-fondo);
